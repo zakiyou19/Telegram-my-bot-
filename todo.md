@@ -1,0 +1,41 @@
+# Telegram Price Comparison Bot - Todo List
+
+## Development Tasks
+- [x] Set up development environment
+  - [x] Create project directory
+  - [x] Install python3.10-venv
+  - [x] Create virtual environment
+  - [x] Install required packages (python-telegram-bot, requests, beautifulsoup4, python-dotenv)
+- [x] Create Telegram bot skeleton
+  - [x] Create main bot file
+  - [x] Set up command handlers
+  - [x] Create config file structure
+  - [x] Implement basic error handling
+- [x] Implement product link parsing
+  - [x] Create URL validation
+  - [x] Implement platform detection
+  - [x] Extract product details (name, SKU, etc.)
+- [x] Implement platform-specific scrapers
+  - [x] AliExpress scraper/API integration
+  - [x] Amazon scraper/API integration
+  - [x] Noon scraper/API integration
+  - [x] Temu scraper/API integration
+- [x] Implement price comparison logic
+  - [x] Create data structure for product comparison
+  - [x] Implement sorting by price
+  - [x] Format comparison results
+- [x] Implement affiliate link conversion
+  - [x] Amazon PA-API integration
+  - [x] AliExpress Affiliate API integration
+  - [x] Noon API/scraping integration
+  - [x] Temu API/scraping integration
+- [x] Implement multilingual support
+  - [x] Set up translation system
+  - [x] Add Arabic language support
+  - [x] Add English language support
+  - [x] Implement language detection/selection
+- [x] Deploy and test bot
+  - [x] Prepare for Replit deployment
+  - [x] Set up keep-alive solution
+  - [x] Test all functionalities
+  - [x] Document usage instructions
